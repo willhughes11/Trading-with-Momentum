@@ -125,4 +125,4 @@ dmypy.json
 .pyre/
 
 # OS Settings
-.DS_Store
+.DS_Store/
