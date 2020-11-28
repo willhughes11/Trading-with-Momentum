@@ -14,15 +14,15 @@ def _generate_stock_trace(prices):
 
 def _generate_traces(name_df_color_data):
     traces = []
-
+ 
     for name, df, color in name_df_color_data:
         traces.append(go.Scatter(
             name=name,
             x=df.index,
             y=df,
-            mode='line',
+            mode='lines',
             line={'color': color}))
-
+ 
     return traces
 
 
